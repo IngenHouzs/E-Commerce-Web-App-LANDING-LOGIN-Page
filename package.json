@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "belanjakuy",
+  "version": "1.0.0",
+  "description": "webdev nodejs jquery",
+  "main": "work.js",
+  "author": "Farrel Dinarta",
+  "license": "ISC",
+  "type": "module"
+}

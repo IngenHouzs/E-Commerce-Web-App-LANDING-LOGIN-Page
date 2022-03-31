@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Maven+Pro:wght@100&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">      
+
+        <title>Daftar</title>
+    </head>
+    <body id="body_signup">
+        <div id="navbar">
+            <div class="nav_logo"><img src="dashboard-icons/logo.png"/></div>
+            <div id="nav_command_box">
+                <div class="nav_commands"><a href="signup.html">Sign Up</a></div>
+                <div class="nav_commands"><a href="#">Log In</a></div>
+                <div class="nav_commands"><a href="#">KuyCare</a></div>
+            </div>
+            <div id="nav_command_dropdown"><a>Menu</a><img class="dropdown-arrow" src="dashboard-icons/dropdown-arrow.png"/>
+            </div>
+            <div class="dropdown-widgets">
+                <a href="signup.html">Sign Up</a>
+                <a>Log In</a>
+                <a>KuyCare</a>
+            </div>             
+        </div>         
+        
+        <div id="login_wrapper">    
+            <div id="login_fields">
+                <img src="signup-icons/register.png"/>
+                <h>Daftar</h>
+                <h class="invalid-input">Identitas tidak boleh kosong.</h>                               
+                <form>                                  
+                    <input id="input-nama" type="text" placeholder="User Name" name="user-name">
+                    <input id="input-password" type="password" placeholder="Password" name="password">                                              
+                </form>
+                <button class="button-blue-dominant" id="submit-signup-2">Daftar</button>                        
+            </div>
+            <div id="login_pictures">
+                <div class="overlay"></div>
+                <div class="text-overlay"><h>Sudah punya akun?</h></div>
+                <button id="">Log In</button>
+                <img id="r-image" src="signup-icons/right-image.png"/>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>     
+        <script src="signup_2.js"></script>                      
+        <script src="script.js"></script>           
+    </body>
+</html>
